@@ -1,0 +1,194 @@
+.BoxMaisInformacoes{
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    max-width: 100vw;
+    min-width: 100vw;
+    min-height: 100vh;
+    font-size: 13px;
+}
+
+.MaisInformacoes{
+    margin-top: 12vh;
+    padding: 15px;
+    background: hsl(209, 23%, 22%);
+    max-width: 60vw;
+    max-height: 80vh;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.MaisInformacoes section{
+    margin: 0;
+}
+
+.SecInformacoes{
+    height: 52vh;
+    overflow-y: scroll;
+}
+
+.MaisInformacoesClaro{
+    background: hsl(0, 0%, 100%);
+}
+
+.BoxFechar{
+    margin-top: 12vh;
+    text-align: right;
+    font-size: 25px;
+}
+
+.Fechar{
+    cursor: pointer;
+}
+
+.Bandeira{
+    margin-top: 25px;
+    width: 60vw;
+    height: 32vw;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.NomePais{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.ParagrafoInformacao{
+    text-align: center;
+    margin: 12px 0;
+}
+
+.DescricaoInformacao{
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.ParagrafoFronteiras{
+    margin-top: 50px;
+}
+
+.BoxFronteiras{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(min-height: 1200px){
+    .SecInformacoes::-webkit-scrollbar{
+        display: none;
+    }
+}
+
+@media(min-width: 550px){
+    .MaisInformacoes{
+        max-width: 80vw;
+        width: 80vw;
+    }
+
+    .SecInformacoes{
+        height: 42vh;
+    }
+
+    .BoxBandeira{
+        text-align: center;
+    }
+
+    .Bandeira{
+        margin-top: 12px;
+        width: 40vw;
+        height: 20vw;
+    }
+
+    .ParagrafoFronteiras{
+        margin-top: 35px;
+    }
+}
+
+@media(min-width: 600px){
+    .SecInformacoes{
+        height: 52vh;
+    }
+}
+
+@media(min-width: 966px){
+    .MaisInformacoes{
+        display: flex;
+    }
+
+    .SecInformacoes{
+        height: 75vh;
+    }
+
+    .Bandeira{
+        width: 32vw;
+        height: 25vw;
+        margin-top: 20px;
+        margin-right: 45px;
+    }
+
+    .ParagrafoInformacao{
+        display: flex;
+    }
+
+    .BoxMaisInformacoes{
+        font-size: 15px;
+    }
+
+    .DescricaoInformacao{
+        font-size: 15px;
+    }
+
+    .Fechar{
+        font-size: 40px;
+    }
+}
+
+@media(min-width: 1210px){
+    .SecInformacoes::-webkit-scrollbar{
+        display: none;
+    }
+
+    .MaisInformacoes{
+        max-height: 66vh;
+    }
+
+    .BoxMaisInformacoes{
+        font-size: 18px;
+    }
+
+    .DescricaoInformacao{
+        font-size: 18px;
+    }
+}
+
+@media(min-width: 1280px){
+    .MaisInformacoes{
+        padding: 40px;
+        max-height: 65vh;
+    }
+
+    .Bandeira{
+        margin-right: 5vw;
+        max-width: 60vw;
+        max-height: 32vh;
+    }
+
+    .NomePais{
+        font-size: 32px;
+    }
+}
+
+@media(min-width: 1380px){
+    .MaisInformacoes{
+        max-width: 62vw;
+    }
+}
+
+@media(min-width: 1900px){
+    .MaisInformacoes{
+        height: 51vh;
+    }
+}

@@ -1,0 +1,39 @@
+.Icon{
+    font-size: 20px;
+    color: darkgray;
+    padding: 20px 0px 20px 8px;
+    position: absolute;
+}
+
+.IconInvisivel{
+    visibility: hidden;
+}
+
+.Buscar{
+    font-size: 18px;
+    color: azure;
+    width: 60vw;
+    background: hsl(209, 23%, 22%);
+    padding: 20px 20px 20px 40px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 12px;
+}
+
+.BuscarClaro{
+    background: hsl(0, 0%, 100%);
+    color: black;
+}
+
+@media(min-width: 800px){
+    .Buscar{
+        width: 40vw;
+    }
+}
+
+@media(min-width: 1210px){
+    .Buscar{
+        width: 300px;
+    }
+}

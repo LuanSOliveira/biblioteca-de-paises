@@ -1,0 +1,26 @@
+.Filter{
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 15px;
+    background: hsl(209, 23%, 22%);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.Opcoes{
+    font-size: 18px;
+    color: azure;
+    border: none;
+    border-radius: 15px;
+    background: hsl(209, 23%, 22%);
+    outline: none;
+}
+
+.FilterClaro{
+    background: hsl(0, 0%, 100%);
+}
+
+.OpcoesClaro{
+    background: hsl(0, 0%, 100%);
+    color: black
+}

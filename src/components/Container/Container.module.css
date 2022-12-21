@@ -1,0 +1,58 @@
+.Container{
+    background: hsl(207, 26%, 17%);
+    color: azure;
+    max-width: 100vw;
+    min-height: 100vh;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.ContainerClaro{
+    background: hsl(0, 0%, 98%);
+    color: rgb(34, 34, 34)
+}
+
+.Menu{
+    padding: 0px 32px;
+}
+
+.BoxCards{
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.BoxVoltarAoTopo{
+    text-align: right;
+}
+
+.VoltarAoTopo{
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    margin-right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.VoltarAoTopoInvisivel{
+    visibility: hidden;
+}
+
+@media(min-width: 800px){
+    .Menu{
+        display: flex;
+        justify-content: space-between;
+        height: 62px;
+    }
+}
+
+@media(min-width: 966px){
+    .VoltarAoTopo{
+        font-size: 40px;
+    }
+
+    .VoltarAoTopoInvisivel{
+        visibility: visible;
+    }
+}
